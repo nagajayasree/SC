@@ -14,7 +14,7 @@ export default function Feed({ _id, title, summary, coverImg, content, createdAt
                     <h2>{title}</h2>
                 </Link>
                 <p className='info'>
-                    <a className='author'>{author.username}</a>
+                    <p className='author'>{author.username}</p>
                     <time>{moment(createdAt).format("Do MMMM YYYY, h:mm a")}</time>
                 </p>
                 <p className='summary'>{summary}</p>

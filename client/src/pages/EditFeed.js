@@ -19,7 +19,7 @@ export default function EditFeed() {
                     setSummary(postInfo.summary);
                 })
             })
-    }, [])
+    });
 
     async function updateFeed(event) {
         event.preventDefault();
