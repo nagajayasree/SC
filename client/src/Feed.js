@@ -22,5 +22,3 @@ export default function Feed({ _id, title, summary, coverImg, content, createdAt
         </div>
     )
 }
-
-//https://montreal.ctvnews.ca/content/dam/ctvnews/en/images/2023/7/15/pedestrian-walks-through-que--storm-1-6480987-1689420146157.jpg

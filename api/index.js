@@ -112,7 +112,7 @@ app.put('/post', uploadMiddleware.single('file'), async (req, res) => {
             title,
             summary,
             content,
-            cover: newPath ? newPath : postDoc.coverImg,
+            coverImg: newPath ? newPath : postDoc.coverImg,
         });
         res.json(postDoc);
     });
